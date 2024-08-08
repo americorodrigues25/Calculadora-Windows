@@ -50,7 +50,7 @@ No desenvolvimento deste projeto utilizei diversas funções do JS:
 ![Macbook-Air-127 0 0 1](https://github.com/user-attachments/assets/38ba1eb4-a745-4b24-b0d0-eb8cb6be4789)
 
 # link do deploy:
-
+https://calculadora-windows-five.vercel.app/
 
 
 ## Contatos: 📲
