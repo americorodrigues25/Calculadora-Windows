@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Inicio Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500/7bg-zinc-950/650;700&display=swap"
+        rel="stylesheet">
+    <!-- Final Google Fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./src/css/output.css">
+    <link rel="icon" href="./assets/image/icone-calc.png" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+
+<body class="bg-home bg-cover bg-center bg-no-repeat font-sans h-screen flex justify-center items-center">
+    <div class="flex flex-col justify-center items-center">
+        <div id="calc" class="w-auto h-auto bg-slate-900/65 rounded-md my-auto">
+            <header class="p-5">
+                <div class="flex justify-between text-gray-300 text-sm">
+                    <div class="flex items-center text-gray-300 pb-6 cursor-default">
+                        <img src="./assets/image/icone-calc.png" alt="icone calculadora" class="w-5">
+                        <p class="text-gray-300 pl-4">Calculadora</p>
+                    </div>
+                    <div class="grid grid-rows-1 grid-cols-3 gap-5 cursor-default">
+                        <i class="bi bi-fullscreen-exit"></i>
+                        <i class="bi bi-fullscreen"></i>
+                        <i id="close" class="bi bi-x-lg "></i>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center text-gray-300 cursor-default text-lg">
+                    <div class="flex items-center gap-2">
+                        <i class="bi bi-list mr-2"></i>
+                        <h2 class="m-0">Padrão</h2>
+                        <i class="bi bi-arrows-angle-expand ml-2"></i>
+                    </div>
+                    <div>
+                        <i class="bi bi-clock-history"></i>
+                    </div>
+                </div>
+            </header>
+            <main class="text-gray-300">
+                <div class="pt-12 pb-2 pl-4 text-right text-4xl">
+                    <div class="result max-w-80 overflow-hidden overflow-ellipsis whitespace-nowrap">0</div>
+                </div>
+                <div class="buttons text-lg grid grid-cols-4 grid-rows-6 gap-1 p-2">
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">%</button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">CE</button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">C</button>
+                    <button
+                        class="bg-rose-600/65 hover:bg-rose-800/65 duration-150 w-20 h-14 rounded-md cursor-default"><i class="bi bi-backspace"></i></button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">1/x</button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">x²</button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">√</button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default text-2xl">÷</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">7</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">8</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">9</button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">x</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">4</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">5</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">6</button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">-</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">1</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">2</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">3</button>
+                    <button
+                        class="bg-zinc-900/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">+</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">+/-</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">0</button>
+                    <button
+                        class="bg-zinc-950/80 hover:bg-zinc-700 duration-150 w-20 h-14 rounded-md cursor-default">.</button>
+                    <button
+                        class="bg-sky-500/65 hover:bg-sky-700/65 duration-150 w-20 h-14 rounded-md cursor-default">=</button>
+                </div>
+            </main>
+        </div>
+        <img src="./assets/image/icone-calc.png" alt="Icone calculadora" class="w-20 hidden" id="abrirCalc">
+    </div>
+
+    <script src="./src/js/close&open.js"></script>
+    <script src="./src/js/logicaCalc.js"></script>
+</body>
+
+
+</html>
