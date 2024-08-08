@@ -45,6 +45,14 @@ No desenvolvimento deste projeto utilizei diversas funções do JS:
 <img align="center" alt="icon-Tailwind" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />        
 </div>
 
+
+#### Segue imagem da aplicação.
+![Macbook-Air-127 0 0 1](https://github.com/user-attachments/assets/38ba1eb4-a745-4b24-b0d0-eb8cb6be4789)
+
+# link do deploy:
+
+
+
 ## Contatos: 📲
 <div>
   <a href="https://wa.me/+5511964166962" target="_blank">
@@ -57,10 +65,3 @@ No desenvolvimento deste projeto utilizei diversas funções do JS:
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
 </div>
-
-#### Segue imagem da aplicação.
-![Macbook-Air-127 0 0 1](https://github.com/user-attachments/assets/38ba1eb4-a745-4b24-b0d0-eb8cb6be4789)
-
-# link do deploy:
-
-
